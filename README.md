@@ -22,6 +22,7 @@ The focus of this project is abstractive text summarization in the field of comp
 
 ### Results
 Through dedicated effort and strategic utilization of these resources, our team successfully tackled the challenges of abstractive text summarization. The resulting summaries accurately capture the essence of the source material, while the Q&A module demonstrates their unwavering precision.
+The Accuracy we got is 93.14%
 
 ### Usage
 To use this project, follow the instructions below:
