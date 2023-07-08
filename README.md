@@ -15,6 +15,10 @@ The focus of this project is abstractive text summarization in the field of comp
 - Built upon the PyTorch deep learning framework, commonly used in computer science.
 - Utilized the versatile CNN-DM Dataset, known for its suitability for natural language processing tasks.
 - Seamlessly integrated the transformative Transformers library into the project for efficient processing.
+- Created Abstractive Summaries using BART and then extracted all the entities present in Article and Generated Summary to verify whether all the entities present in Generated Summary are present in entities of Article.
+- After this, QA model is implemented on Generated Summaries and Questions are generated.
+- Based on this questions, answers are generated as entities(one word answers) from both Article and Generated Summary.
+- If there is a mismatch, then those entities in Generated Summary are replaced by answer given by Article, Thus improving the accuracy of the model.
 
 ### Results
 Through dedicated effort and strategic utilization of these resources, our team successfully tackled the challenges of abstractive text summarization. The resulting summaries accurately capture the essence of the source material, while the Q&A module demonstrates their unwavering precision.
