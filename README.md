@@ -1,8 +1,34 @@
-# Abstractive-Summarizer
-In the Techgium hackathon hosted by L&T Company, I was proud to be part of top 100 elite teams selected from over 3,500 competing teams. My area of focus was Abstractive text summarization, where I spearheaded innovative research to develop a model with exceptional accuracy. This model possesses the ability to comprehend text and craft summaries in its own words, all while avoiding the mundane task of sentence extraction.
+## Techgium Hackathon - Abstractive Text Summarization
 
-To achieve this feat, I harnessed the power of transfer learning. By leveraging pre-trained models like BART, I created a robust system that excels at generating comprehensive summaries. Additionally, I employed BERT to construct a cutting-edge Question and Answer module. This module served as a litmus test, ensuring the accuracy of our summaries by comparing answers derived from both the original text and the summary.
+![image](https://github.com/putrareddy/Abstractive-Summarizer/assets/63699729/cee9f25f-c13e-42fd-bf1b-d1bbfc160697)
 
-The project implementation was built upon PyTorch, a powerful deep learning framework. With the aid of the versatile CNN-DM Dataset and the transformative Transformers library, I navigated the intricacies of natural language processing tasks, seamlessly integrating them into the project.
+This project was developed as part of the Techgium hackathon hosted by L&T Company. It was selected among the top 100 elite teams from over 3,500 competing teams.
 
-Through diligent effort and ingenious application of these resources, our team conquered the challenges of abstractive text summarization. The resultant summaries astutely captured the essence of the source material, while the Q&A module served as a testament to their unwavering accuracy.
+### Overview
+The focus of this project is abstractive text summarization in the field of computer science. The goal was to develop a highly accurate model that can understand text and generate summaries using its own words, without relying on sentence extraction.
+
+### Key Features
+- Leveraged transfer learning techniques, utilizing pre-trained models like BART, to develop a robust system for generating comprehensive summaries.
+- Employed BERT to construct an advanced Question and Answer module, ensuring the accuracy of the summaries by comparing answers derived from both the original text and the summary.
+
+### Implementation Details
+- Built upon the PyTorch deep learning framework, commonly used in computer science.
+- Utilized the versatile CNN-DM Dataset, known for its suitability for natural language processing tasks.
+- Seamlessly integrated the transformative Transformers library into the project for efficient processing.
+
+### Results
+Through dedicated effort and strategic utilization of these resources, our team successfully tackled the challenges of abstractive text summarization. The resulting summaries accurately capture the essence of the source material, while the Q&A module demonstrates their unwavering precision.
+
+### Usage
+To use this project, follow the instructions below:
+
+1. Clone the repository.
+2. Install the required dependencies listed in the script.
+4. Prepare your dataset or use the provided CNN-DM Dataset.
+5. Run the main script to train the model and generate summaries.
+6. Evaluate the generated summaries using the Question and Answer module.
+7. Analyze the results and make improvements based on your requirements.
+
+For more information, please refer to the documentation and code in the repository.
+
+*Note:* This project was developed as a part of the Techgium hackathon and may require additional optimization and customization for specific use cases.
